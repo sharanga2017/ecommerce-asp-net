@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "CheckOut";
+}
+
+<h2>Payer votre commande</h2>
+
+<div>
+
+    @if (ViewBag.Message != null)
+    {
+
+        <div class="alert-success"> @ViewBag.Message </div>
+
+    }
+    else
+    {
+
+        @(Html.BeginForm())
+        {
+
+            <h3>Par carte bancaire </h3>
+            <label>Numero carte bancaire</label><br />
+            <input type="text" name="cartenumber" class="form-control" required /><br />
+            <label>Nom et Prenome sur Carte </label><br />
+            <input type="text" name="NomPrenom" class="form-control" required /><br />
+            <label>Cryptogram</label><br />
+            <input type="text" class="form-control" style="width: 100px;" required /><br />
+            <label>Date d'expriation</label><br />
+            <strong>Mois</strong><br />
+            <input type="text" placeholder="Mois" class="form-control" required />
+            <strong>Année</strong><br />
+            <input type="text" placeholder="Année" class="form-control" required />
+            <br /><br />
+
+            <h3>Par PayPal</h3>
+            <label>Email:</label><br />
+            <input type="text" placeholder="Email PayPal" class="form-control" /><br /><br /><br />
+
+            <input type="submit" value="Payer" class="btn-warning" />
+        }
+
+    }
+</div>
+

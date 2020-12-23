@@ -1,0 +1,75 @@
+﻿@model Bdd.Models.bd
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>bd</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.image)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.image)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.heros)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.heros)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.titre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.titre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prixPublic)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prixPublic)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.resume)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.resume)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.idSerie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idSerie)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.idGenre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idGenre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model._ref }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,76 @@
+18/11/2020 01:14:55	This log contains information about the import schema operation into project 'Database1' on computer 'DESKTOP-2MHS9A0' by user 'serguei'.
+18/11/2020 01:14:55	Import of database schema has started.
+18/11/2020 01:15:04	Gathering database options
+18/11/2020 01:15:04	Gathering users
+18/11/2020 01:15:04	Gathering roles
+18/11/2020 01:15:04	Gathering application roles
+18/11/2020 01:15:04	Gathering role memberships
+18/11/2020 01:15:04	Gathering filegroups
+18/11/2020 01:15:04	Gathering full-text catalogs
+18/11/2020 01:15:04	Gathering assemblies
+18/11/2020 01:15:04	Gathering certificates
+18/11/2020 01:15:04	Gathering asymmetric keys
+18/11/2020 01:15:04	Gathering symmetric keys
+18/11/2020 01:15:04	Gathering encrypted symmetric keys
+18/11/2020 01:15:04	Gathering schemas
+18/11/2020 01:15:04	Gathering XML schema collections
+18/11/2020 01:15:04	Gathering user-defined data types
+18/11/2020 01:15:04	Gathering user-defined types
+18/11/2020 01:15:04	Gathering table types
+18/11/2020 01:15:04	Gathering unique keys for table types
+18/11/2020 01:15:04	Gathering primary keys for table types
+18/11/2020 01:15:04	Gathering check constraints for table types
+18/11/2020 01:15:04	Gathering default constraints for table types
+18/11/2020 01:15:04	Gathering partition functions
+18/11/2020 01:15:04	Gathering partition schemes
+18/11/2020 01:15:04	Gathering functions
+18/11/2020 01:15:04	Gathering encrypted functions
+18/11/2020 01:15:04	Gathering aggregates
+18/11/2020 01:15:04	Gathering procedures
+18/11/2020 01:15:04	Gathering encrypted procedures
+18/11/2020 01:15:04	Gathering tables
+18/11/2020 01:15:04	Gathering primary keys
+18/11/2020 01:15:04	Gathering unique constraints
+18/11/2020 01:15:04	Gathering foreign keys
+18/11/2020 01:15:04	Gathering default constraints
+18/11/2020 01:15:04	Gathering check constraints
+18/11/2020 01:15:04	Gathering views
+18/11/2020 01:15:04	Gathering encrypted views
+18/11/2020 01:15:04	Gathering indexes
+18/11/2020 01:15:04	Gathering statistics
+18/11/2020 01:15:04	Gathering full-text index stoplists
+18/11/2020 01:15:04	Gathering search property lists
+18/11/2020 01:15:04	Gathering search properties
+18/11/2020 01:15:04	Gathering full-text indexes
+18/11/2020 01:15:04	Gathering column store indexes
+18/11/2020 01:15:04	Gathering spatial indexes
+18/11/2020 01:15:04	Gathering XML indexes
+18/11/2020 01:15:04	Gathering Selective XML indexes
+18/11/2020 01:15:04	Gathering encrypted triggers
+18/11/2020 01:15:04	Gathering triggers
+18/11/2020 01:15:04	Gathering encrypted and clr ddl triggers
+18/11/2020 01:15:04	Gathering ddl triggers
+18/11/2020 01:15:04	Gathering synonyms
+18/11/2020 01:15:04	Gathering defaults
+18/11/2020 01:15:04	Gathering data constraint uddt bindings
+18/11/2020 01:15:04	Gathering rules
+18/11/2020 01:15:04	Gathering data constraint uddt bindings
+18/11/2020 01:15:04	Gathering message types
+18/11/2020 01:15:04	Gathering queues
+18/11/2020 01:15:04	Gathering contracts
+18/11/2020 01:15:04	Gathering services
+18/11/2020 01:15:04	Gathering event notifications
+18/11/2020 01:15:04	Gathering remote service bindings
+18/11/2020 01:15:04	Gathering broker priorities
+18/11/2020 01:15:04	Gathering signatures
+18/11/2020 01:15:05	Gathering data compression options
+18/11/2020 01:15:05	Gathering sequence types
+18/11/2020 01:15:05	Gathering extended properties
+18/11/2020 01:15:05	Gathering credentials
+18/11/2020 01:15:05	Gathering logins
+18/11/2020 01:15:05	Gathering server audits
+18/11/2020 01:15:08	Scanning project for duplicate elements
+18/11/2020 01:15:08	Finished duplicate element processing
+18/11/2020 01:15:09	Finished importing database.
+18/11/2020 01:15:09	A summary of the import was saved to the following location: C:\Users\serguei\source\repos\Ecommerce\Bdd\Database1\Import Schema Logs\Database1_20201118121455.log
+18/11/2020 01:15:09	Click Finish to continue...

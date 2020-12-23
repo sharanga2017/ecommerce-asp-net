@@ -1,0 +1,31 @@
+﻿@model WebApp.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Product</h4>
+
+    <div class="card m-1" style="min-width: 19rem; max-width:30.5%;">
+        <div class="card-header">
+            <h3>@Model.Nom</h3>
+        </div>
+
+        <img class="card-img-top imageThumbnail" src="~/images/@Model.Photo"
+             asp-append-version="true" />
+
+        <div class="card-footer text-center">
+
+
+            <a href="/Cart/AddProductToCart/@Model.Id" class="btn btn-danger">Ajouter</a> 
+        </div>
+    </div>
+
+    <p>
+        @*@Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |*@
+        @Html.ActionLink("Back to List", "Index")
+    </p>
